@@ -19,6 +19,21 @@ header {
 	padding: 5%;
 }
 
+#nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 5% 0 0;
+	text-align: right;
+}
+
+#nav a {
+	display: block;
+	width: 60px;
+}
+
+ #nav li {
+	float: right;
+ }
 
 /********************************************
 Body
