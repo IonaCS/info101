@@ -1,3 +1,59 @@
+/********************************************
+All content
+********************************************/
+
 a {
-  text-decoration: none;
+	text-decoration: none;
+}
+
+body {
+	background: #eeffd6;
+}
+
+
+
+/********************************************
+Header (fog city img src http://spigaou.cgsociety.org/art/maya-photoshop-fog-city-3d-435104)
+********************************************/
+header {
+	text-align: left;
+	margin: 0 auto 2.5%;
+	max-width: 1600px;
+	padding: 5%;
+	background: linear-gradient(#eeffd6, transparent 10%),
+            linear-gradient(0deg, #eeffd6, transparent),
+            #eeffd6 url('fog_city.jpg') no-repeat center;
+}
+
+header h1, header h2 {
+	color: white;
+	font-family: "verdana";
+	padding: 0 0 0 5%;
+}
+
+#nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 5% 0 0;
+	text-align: right;
+}
+
+#nav a {
+	display: block;
+	width: 60px;
+}
+
+ #nav li {
+	float: right;
+ }
+
+
+
+/********************************************
+Body
+********************************************/
+div {
+	margin: 0 auto;
+	max-width: 1000px;
+	text-align: center;
 }
