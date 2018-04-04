@@ -11,12 +11,22 @@ body {
 }
 
 /********************************************
-Header
+Header (fog city img src http://spigaou.cgsociety.org/art/maya-photoshop-fog-city-3d-435104)
 ********************************************/
 header {
 	text-align: left;
-	margin: 0 0 2.5% 0;
+	margin: 0 auto 2.5%;
+	max-width: 1600px;
 	padding: 5%;
+	background: linear-gradient(#eeffd6, transparent 10%),
+            linear-gradient(0deg, #eeffd6, transparent),
+            #eeffd6 url('fog_city.jpg') no-repeat center;
+}
+
+h1, h2 {
+	color: white;
+	font-family: "verdana";
+	padding: 0 0 0 5%;
 }
 
 #nav {
