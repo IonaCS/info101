@@ -8,6 +8,7 @@ a {
 
 body {
 	background: #eeffd6;
+	font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -21,7 +22,7 @@ header {
 	max-width: 1600px;
 	padding: 5%;
 	background: linear-gradient(#eeffd6, transparent 10%),
-            linear-gradient(0deg, #eeffd6, transparent),
+            linear-gradient(0deg, #aaa, transparent),
             #eeffd6 url('fog_city.jpg') no-repeat center;
 }
 
@@ -29,6 +30,18 @@ header h1, header h2 {
 	color: white;
 	font-family: "verdana";
 	padding: 0 0 0 5%;
+}
+
+header h1 {
+	font-family: 'Audiowide', cursive;
+    font-size: 2.3em;
+	letter-spacing: .1em;
+	text-shadow: 2px 3px 5px #000;
+}
+
+header h2 {
+	font-family: 'Prosto One', cursive;
+	text-shadow: 2px 3px 10px #333;
 }
 
 #nav {
@@ -39,9 +52,15 @@ header h1, header h2 {
 }
 
 #nav a {
+	color: #fff;
 	display: block;
 	margin: 0 8px;
+	text-shadow: 2px 3px 10px #000;
 	width: auto;
+}
+
+#nav a:hover {
+	color: #c4fc9f;
 }
 
  #nav li {
