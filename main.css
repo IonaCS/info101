@@ -8,6 +8,7 @@ a {
 
 body {
 	background: #eeffd6;
+	font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -29,6 +30,14 @@ header h1, header h2 {
 	color: white;
 	font-family: "verdana";
 	padding: 0 0 0 5%;
+}
+
+header h1 {
+	font-family: 'Audiowide', cursive;
+}
+
+header h2 {
+	font-family: 'Prosto One', cursive;
 }
 
 #nav {
