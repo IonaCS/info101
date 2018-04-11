@@ -77,3 +77,7 @@ Body
 	max-width: 1000px;
 	text-align: center;
 }
+
+div {
+	padding: 0 10%;
+}
