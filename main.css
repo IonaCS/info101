@@ -19,11 +19,11 @@ Header (fog city img src http://spigaou.cgsociety.org/art/maya-photoshop-fog-cit
 header {
 	text-align: left;
 	margin: 0 auto 2.5%;
-	max-width: 1600px;
 	padding: 5%;
 	background: linear-gradient(#eeffd6, transparent 10%),
             linear-gradient(0deg, #aaa, transparent),
             #eeffd6 url('fog_city.jpg') no-repeat center;
+	background-size: cover;
 }
 
 header h1, header h2 {
