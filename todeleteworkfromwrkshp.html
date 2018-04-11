@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title> Home​ </title>
+	</head>
+	<body>
+		<header>
+			<h1> Hello! </h1>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<script src="script.js"></script>
+		</header>
+		<form>
+			<input type="radio" name="Major" value="Marketing" checked> Marketing
+			<input type="radio" name="Major" value="Accounting"> Accounting 
+			<input type="radio" name="Major" value="Law"> Law
+			<input type="radio" name="Major" value="Other"> Other
+		</form>
+		<p> Select age: </p>
+		<select name="age">
+			<option value="10-19">10-19</option>
+			<option value="10-19">20-29</option>
+			<option value="10-19">30-39</option>
+			<option value="10-19">40-49</option>
+			<option value="10-19" selected>50+</option>
+		</select>
+		<p> Enter name and password: </p>
+		<form>
+			<input type="text" name="firstandlastname"> <br>
+			<input type="password" name="password"> <br>
+		</form>
+		<p> Feedback: </p>
+		<textarea name="message" rows="5" cols="50"> </textarea>
+		<button type="button"> Submit </button> <br>
+		<p id="example"> Was this but </p>
+		<button type="button" onclick="changehtml ()"> Change HTML </button>
+		<button type="button" onclick="changecss ()"> Change CSS </button>
+		<p id="demo"></p>
+		<form name="confirm" onsubmit="return validateForm()" method="post">
+			<input type="text" name="code">
+			<input type="submit" value="Submit">
+		</form>
+		<form name="practice" onsubmit="return performOp()" method="post">
+			<input type="text" name="number">
+			<p id="answer"> Answer </p>
+			<input type="submit" value="Submit">
+		</form>
+	</body>​
+</html>
