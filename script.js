@@ -4,15 +4,15 @@ function formSubmitted () {
 
 
 
-//var status = false
+
 
 function subscribeSubmitted () {
 	var status = validateForm ()
 	console.log(status);
-//	if status == false {
+	if (status == true) {
 		//if (status) source - https://stackoverflow.com/questions/23061921/javascript-ifx-vs-ifx-true
-//		document.getElementById("subscribeform").innerHTML = "Thank you for subscribing! You'll get an email soon to verify your details.";		
-//	}
+		document.getElementById("subscribeform").innerHTML = "Thank you for subscribing! You'll get an email soon to verify your details.";		
+	}
 }
 
 function validateForm () {
