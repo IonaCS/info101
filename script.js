@@ -8,9 +8,7 @@ function formSubmitted () {
 
 function subscribeSubmitted () {
 	var status = validateForm ()
-	console.log(status);
 	if (status == true) {
-		//if (status) source - https://stackoverflow.com/questions/23061921/javascript-ifx-vs-ifx-true
 		document.getElementById("subscribeform").innerHTML = "Thank you for subscribing! You'll get an email soon to verify your details.";		
 	}
 }
