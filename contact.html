@@ -24,7 +24,7 @@
 		</header>
 		<div>
 			<h1> Contact Us </h1>
-			<form name="contact" onsubmit="return formSubmitted ()" method="post">
+			<form id="contactform" name="contact">
 				<p> Enquiry type: </p>
 				<select name="enquirytype">
 					<option value="general" selected>General</option>
@@ -37,7 +37,7 @@
 				<input type="text" name="email">
 				<p> Message: </p>
 				<textarea name="message" rows="10" cols="50"> </textarea> <br>
-				<input type="submit" value="Submit">
+				<button type="button" onclick="contactSubmitted ('contact', 'name', 'email', 'message')"> Send </button>
 			</form>
 		</div>
 	</body>
