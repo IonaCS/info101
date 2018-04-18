@@ -4,6 +4,7 @@
 		<title>Fog City Games Ltd.</title>
 		<link href="https://fonts.googleapis.com/css?family=Audiowide|Open+Sans|Prosto+One" rel="stylesheet">
 		<link rel="stylesheet" href="main.css">
+		<script src="script.js"></script>
 	</head>
 	<body>
 		<header>
@@ -21,6 +22,23 @@
 				</ul>
 			</nav>
 		</header>
-		<h1> Contact Us </h2>
+		<div>
+			<h1> Contact Us </h1>
+			<form name="contact" onsubmit="return formSubmitted ()" method="post">
+				<p> Enquiry type: </p>
+				<select name="enquirytype">
+					<option value="general" selected>General</option>
+					<option value="help">Help</option>
+					<option value="feedback">Feedback</option>
+				</select>
+				<p> Name: </p>
+				<input type="text" name="name">
+				<p> Email: </p>
+				<input type="text" name="email">
+				<p> Message: </p>
+				<textarea name="message" rows="10" cols="50"> </textarea> <br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
 	</body>
 </html>

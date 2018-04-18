@@ -4,6 +4,7 @@
 		<title>Fog City Games Ltd.</title>
 		<link href="https://fonts.googleapis.com/css?family=Audiowide|Open+Sans|Prosto+One" rel="stylesheet">
 		<link rel="stylesheet" href="main.css">
+		<script src="script.js"></script>
 	</head>
 	<body>
 		<header>
@@ -21,6 +22,17 @@
 				</ul>
 			</nav>
 		</header>
-		<h1> Subscribe </h2>
+		<div>
+			<h1> Subscribe </h1> 
+			<form id="subscribeform" name="subscribe">
+				<p> Name: </p>
+				<input type="text" name="name">
+				<p> Email: </p>
+				<input type="text" name="email">
+				<p> Password: </p>
+				<input type="password" name="password"> <br>
+				<button type="button" onclick="subscribeSubmitted ()"> Subscribe </button>
+			</form>
+		</div>
 	</body>
 </html>
