@@ -25,6 +25,12 @@
 		<div>
 			<h1> Contact Us </h1>
 			<form name="contact" onsubmit="return formSubmitted ()" method="post">
+				<p> Enquiry type: </p>
+				<select name="enquirytype">
+					<option value="general" selected>General</option>
+					<option value="help">Help</option>
+					<option value="feedback">Feedback</option>
+				</select>
 				<p> Name: </p>
 				<input type="text" name="name">
 				<p> Email: </p>
