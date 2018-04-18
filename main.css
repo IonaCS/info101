@@ -88,6 +88,21 @@ select {
 	width: 170px;
 }
 
+img {
+	border-radius: 5px;
+	max-height: 300px;
+	max-width: 500px;
+}
+
+span {
+	font-weight: bold;
+	text-decoration: underline; 
+}
+
+span:hover {
+	color: #c4fc9f;
+}
+
 
 
 /********************************************
@@ -95,5 +110,5 @@ Footer
 ********************************************/
 footer {
 	font-size: 10px;
-	margin: 80px 0;
+	margin: 100px 0;
 }
