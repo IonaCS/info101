@@ -25,6 +25,7 @@ header {
             #eeffd6 url('fog_city.jpg') no-repeat center;
 	background-size: cover;
 }
+//background styling source: https://github.com/IonaCS/IonaCS.github.io/blob/master/css/main.css
 
 header h1, header h2 {
 	color: white;
