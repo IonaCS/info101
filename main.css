@@ -103,6 +103,11 @@ span:hover {
 	color: #c4fc9f;
 }
 
+button {
+	margin: 25px 0;
+	position:relative;
+}
+
 
 
 /********************************************
