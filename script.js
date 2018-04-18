@@ -4,7 +4,6 @@
 
 function contactSubmitted (formname, formfeild1, formfeild2, formfeild3) {
 	var status = validateForm (formname, formfeild1, formfeild2, formfeild3)
-	var status = validateForm (formname, formfeild1, formfeild2, formfeild3)
 	if (status == true) {
 		document.getElementById("contactform").innerHTML = "Thank you for your message! Someone will be in contact in a few days.";		
 	}
