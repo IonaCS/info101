@@ -75,12 +75,6 @@ header h2 {
 /********************************************
 Body
 ********************************************/
-#map {
-	margin: 0 auto;
-	max-width: 1000px;
-	text-align: center;
-}
-
 div {
 	padding: 0 10%;
 }
@@ -109,7 +103,13 @@ button {
 	position:relative;
 }
 
+iframe { 
+	padding: 20px 0 10px; 
+}
 
+ol li { 
+	padding: 10px; 
+}
 
 /********************************************
 Footer
