@@ -24,6 +24,7 @@
 		</header>
 		<div>
 			<h1> Subscribe </h1> 
+			<h2> Subscribing gives you access to our latest games. </h2> 
 			<form id="subscribeform" name="subscribe">
 				<p> Name: </p>
 				<input type="text" name="name">
@@ -31,6 +32,10 @@
 				<input type="text" name="email">
 				<p> Password: </p>
 				<input type="password" name="password"> <br>
+				<p> Would you also like to be sent regular updates? <br>
+				You can opt out at any time. </p>
+				<input type="radio" name="newsletter" value="Yes" checked> Yes
+				<input type="radio" name="newsletter" value="No"> No <br>
 				<button type="button" onclick="subscribeSubmitted ('subscribe', 'name', 'email', 'password')"> Subscribe </button>
 			</form>
 		</div>
