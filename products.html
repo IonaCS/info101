@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Fog City Games Ltd.</title>
+		<title>Fog City Games - Products</title>
 		<link href="https://fonts.googleapis.com/css?family=Audiowide|Open+Sans|Prosto+One" rel="stylesheet">
 		<link rel="stylesheet" href="main.css">
 		<script src="script.js"></script>
@@ -10,9 +10,9 @@
 		<header>
 			<a href="index.html">
 				<h1>Fog City Games Ltd.</h1>
-				<h2>Where entertainment comes to play</h2>
+				<h2>Where education comes to play</h2>
 			</a>
-			<nav>
+			<nav> <!-- navigation menu -->
 				<ul id="nav">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
@@ -24,14 +24,38 @@
 		</header>
 		<div>
 			<h1> Products </h1>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/5ncWjzOXohw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			<p>Head on over to <a href="subscribe.html"> subscribe </a> in order to check these out.</p>
-			<footer>
+			<table>
+				<tr> <!-- table row -->
+					<td> <!-- table column -->
+						<img src="tane_game.jpg" alt="Tane's Quest game">
+					</td>
+					<td>
+						<img src="eco_simulation_game.jpg" alt="Zealandia SIM game">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2>Tane's Quest</h2>
+						<p>A Maori legend first person quest series</p>
+						<button class="likebutton" type="button" onclick="increaseLikes ('tane')"> Like game </button> 
+						<p> Likes: <span id="taneLikeScore">0</span> </p>
+					</td>
+					<td>
+						<h2>Zealandia SIM</h2>
+						<p>An eco-restoration simulation</p>
+						<button class="likebutton" type="button" onclick="increaseLikes ('eco')"> Like game </button> 
+						<p> Likes: <span id="ecoLikeScore">0</span> </p>
+					</td>
+				</tr>
+			</table>				
+			<h3>Head on over to <a href="subscribe.html"> <span> subscribe</span> </a> in order to check these out.</h3>
+			<footer> <!-- using this section for adding references -->
 				<h1>
-					REFERENCES
+					REFERENCES:
 				</h1>
 				<p>
-					Eco video: https://www.youtube.com/watch?v=5ncWjzOXohw
+					Tane's Quest image source: https://www.mauistudios.co.nz/legends/2015/7/22/7sg6wk2infbrhotr0ny08qwhjmrgin <br>
+					Zealandia SIM image source: https://www.youtube.com/watch?v=5ncWjzOXohw
 				</p>
 			</footer>
 		</div>

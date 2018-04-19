@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Fog City Games Ltd.</title>
+		<title>Fog City Games - Contact</title>
 		<link href="https://fonts.googleapis.com/css?family=Audiowide|Open+Sans|Prosto+One" rel="stylesheet">
 		<link rel="stylesheet" href="main.css">
 		<script src="script.js"></script>
@@ -10,10 +10,10 @@
 		<header>
 			<a href="index.html">
 				<h1>Fog City Games Ltd.</h1>
-				<h2>Where entertainment comes to play</h2>
+				<h2>Where education comes to play</h2>
 			</a>
-			<nav>
-				<ul id="nav">
+			<nav> <!-- navigation menu -->
+				<ul id="nav"> 
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="contact.html">Contact Us</a></li>
@@ -24,7 +24,8 @@
 		</header>
 		<div>
 			<h1> Contact Us </h1>
-			<form name="contact" onsubmit="return formSubmitted ()" method="post">
+			<form id="contactform" name="contact">
+				<h2> Got something to say? We'd love to hear from you. </h2>
 				<p> Enquiry type: </p>
 				<select name="enquirytype">
 					<option value="general" selected>General</option>
@@ -37,7 +38,7 @@
 				<input type="text" name="email">
 				<p> Message: </p>
 				<textarea name="message" rows="10" cols="50"> </textarea> <br>
-				<input type="submit" value="Submit">
+				<button type="button" onclick="contactSubmitted ('contact', 'name', 'email', 'message')"> Send </button>
 			</form>
 		</div>
 	</body>

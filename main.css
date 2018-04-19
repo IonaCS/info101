@@ -3,11 +3,13 @@ All content
 ********************************************/
 
 a {
+	color: #fff;
 	text-decoration: none;
 }
 
 body {
-	background: #eeffd6;
+	color: #fff;
+	background: #5e6266;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -20,15 +22,15 @@ header {
 	text-align: left;
 	margin: 0 auto 2.5%;
 	padding: 5%;
-	background: linear-gradient(#eeffd6, transparent 10%),
+	background: linear-gradient(#5e6266, transparent 10%),
             linear-gradient(0deg, #aaa, transparent),
-            #eeffd6 url('fog_city.jpg') no-repeat center;
+            #5e6266 url('fog_city.jpg') no-repeat center;
 	background-size: cover;
 }
 //background styling source: https://github.com/IonaCS/IonaCS.github.io/blob/master/css/main.css
 
 header h1, header h2 {
-	color: white;
+	color: #fff;
 	font-family: "verdana";
 	padding: 0 0 0 5%;
 }
@@ -73,19 +75,51 @@ header h2 {
 /********************************************
 Body
 ********************************************/
-#map {
-	margin: 0 auto;
-	max-width: 1000px;
-	text-align: center;
-}
-
 div {
 	padding: 0 10%;
 }
 
-select {
+select /* dropdown */ {
 	width: 170px;
 }
+
+img {
+	border-radius: 5px;
+	max-height: 300px;
+	max-width: 500px;
+}
+
+span {
+	font-weight: bold;
+	text-decoration: underline; 
+}
+
+span:hover {
+	color: #c4fc9f;
+}
+
+button {
+	margin: 25px 0;
+	position:relative;
+}
+
+iframe /*map*/ { 
+	padding: 20px 0 10px; 
+}
+
+ol li { 
+	padding: 10px; 
+}
+
+.likebutton {
+	margin: 0;
+}
+
+#ecoLikeScore, #taneLikeScore {
+	font-weight: normal;
+	text-decoration: none;
+}
+
 
 
 
@@ -94,5 +128,5 @@ Footer
 ********************************************/
 footer {
 	font-size: 10px;
-	margin: 80px 0;
+	margin: 100px 0 20px;
 }
