@@ -21,4 +21,4 @@ Website Project for my INFO101 project
 * Use of class AND ID selectors (must include at least one of each)
 * Use of span AND div CSS formatting (must include at least one of each)
 * Overall Design
-* Content is relevant to Fog City Games Ltd
+* Content is relevant to Fog City Games Ltd (a fictional company)
