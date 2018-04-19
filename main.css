@@ -79,7 +79,7 @@ div {
 	padding: 0 10%;
 }
 
-select {
+select /* dropdown */ {
 	width: 170px;
 }
 
@@ -103,7 +103,7 @@ button {
 	position:relative;
 }
 
-iframe { 
+iframe /*map*/ { 
 	padding: 20px 0 10px; 
 }
 
