@@ -28,3 +28,15 @@ function validateForm (formname, formfeild1, formfeild2, formfeild3) {
     }
 }
 //validateForm source - https://stackoverflow.com/questions/3937513/javascript-validation-for-empty-input-field
+
+
+
+
+
+function increaseLikes (game) {
+    var scoreCount = document.getElementById(game + 'LikeScore');
+    var number = scoreCount.innerHTML;
+    number ++;
+    scoreCount.innerHTML = number;
+}
+//increaseLikes source https://stackoverflow.com/questions/15280851/javascript-increment-value-inside-html

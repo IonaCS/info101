@@ -111,6 +111,18 @@ ol li {
 	padding: 10px; 
 }
 
+.likebutton {
+	margin: 0;
+}
+
+#ecoLikeScore, #taneLikeScore {
+	font-weight: normal;
+	text-decoration: none;
+}
+
+
+
+
 /********************************************
 Footer
 ********************************************/
