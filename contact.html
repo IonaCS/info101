@@ -24,28 +24,22 @@
 		</header>
 		<div>
 			<h1> Contact Us </h1>
-			<h2> There are a few different ways you can contact us: </h2>
-			<ol>
-				<li> Check out our <a href="https://www.facebook.com"> <span> Facebook</span> </a></li>
-				<li> Give us a call on 021 234 5678 </li>
-				<li> Or send us a message directly:
-					<form id="contactform" name="contact">
-						<p> Enquiry type: </p>
-						<select name="enquirytype">
-							<option value="general" selected>General</option>
-							<option value="help">Help</option>
-							<option value="feedback">Feedback</option>
-						</select>
-						<p> Name: </p>
-						<input type="text" name="name">
-						<p> Email: </p>
-						<input type="text" name="email">
-						<p> Message: </p>
-						<textarea name="message" rows="10" cols="50"> </textarea> <br>
-						<button type="button" onclick="contactSubmitted ('contact', 'name', 'email', 'message')"> Send </button>
-					</form>
-				</li>
-			</ol>
+			<form id="contactform" name="contact">
+				<h2> Got something to say? We'd love to hear from you. </h2>
+				<p> Enquiry type: </p>
+				<select name="enquirytype">
+					<option value="general" selected>General</option>
+					<option value="help">Help</option>
+					<option value="feedback">Feedback</option>
+				</select>
+				<p> Name: </p>
+				<input type="text" name="name">
+				<p> Email: </p>
+				<input type="text" name="email">
+				<p> Message: </p>
+				<textarea name="message" rows="10" cols="50"> </textarea> <br>
+				<button type="button" onclick="contactSubmitted ('contact', 'name', 'email', 'message')"> Send </button>
+			</form>
 		</div>
 	</body>
 </html>
