@@ -71,6 +71,22 @@ div {
 	padding: 0 10%;
 }
 
+
+/****************
+Text design/layout
+****************/
+span {
+	font-weight: bold;
+	text-decoration: underline; 
+}
+
+span:hover {
+	color: #c4fc9f;
+}
+
+ol li { 
+	padding: 10px; 
+}
 select /* dropdown */ {
 	width: 170px;
 }
@@ -81,28 +97,23 @@ img {
 	max-width: 500px;
 }
 
-span {
-	font-weight: bold;
-	text-decoration: underline; 
-}
-
-span:hover {
-	color: #c4fc9f;
-}
 
 button {
 	margin: 25px 0;
 	position:relative;
 }
 
-iframe /*map*/ { 
+/****************
+Map
+****************/
+iframe { 
 	padding: 20px 0 10px; 
 }
 
-ol li { 
-	padding: 10px; 
-}
 
+/****************
+Table
+****************/
 .likebutton {
 	margin: 0;
 }
@@ -126,6 +137,27 @@ td {
 table {
 	border-collapse: collapse;
 }
+
+
+/****************
+Misc
+****************/
+select /* dropdown */ {
+	width: 170px;
+}
+
+img {
+	border-radius: 5px;
+	max-height: 300px;
+	max-width: 500px;
+}
+
+
+button {
+	margin: 25px 0;
+	position:relative;
+}
+
 
 
 
