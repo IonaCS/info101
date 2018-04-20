@@ -113,7 +113,18 @@ ol li {
 }
 
 h1, h2 {
+	text-shadow: 0px 0px 20px #000;
+}
 
+td {
+	background: linear-gradient(#777, transparent 10%),
+            linear-gradient(0deg, #999, transparent),
+            #707477 no-repeat center;
+	padding: 30px;
+}
+
+table {
+	border-collapse: collapse;
 }
 
 
