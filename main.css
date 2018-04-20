@@ -52,7 +52,6 @@ header h2 {
 	display: block;
 	margin: 0 8px;
 	text-shadow: 2px 3px 10px #000;
-	width: auto;
 }
 
 #nav a:hover {
@@ -113,6 +112,9 @@ ol li {
 	text-decoration: none;
 }
 
+h1, h2 {
+
+}
 
 
 
