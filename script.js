@@ -20,7 +20,7 @@ function validateForm (formname, feild1, feild2, feild3) {
     var a = document.forms[formname][feild1].value;
     var b = document.forms[formname][feild2].value;
     var c = document.forms[formname][feild3].value;
-    if (a == "" || b == "" || c == " " || c == "") {
+    if (a == "" || b == "" || c == "") {
         alert("Please fill in all the fields");
         return false;
     } else {
