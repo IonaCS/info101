@@ -24,22 +24,43 @@
 		</header>
 		<div>
 			<h1> Contact Us </h1>
-			<form id="contactform" name="contact">
-				<h2> Got something to say? We'd love to hear from you. </h2>
-				<p> Enquiry type: </p>
-				<select name="enquirytype">
-					<option value="general" selected>General</option>
-					<option value="help">Help</option>
-					<option value="feedback">Feedback</option>
-				</select>
-				<p> Name: </p>
-				<input type="text" name="name">
-				<p> Email: </p>
-				<input type="text" name="email">
-				<p> Message: </p>
-				<textarea name="message" rows="10" cols="50"> </textarea> <br>
-				<button type="button" onclick="contactSubmitted ('contact', 'name', 'email', 'message')"> Send </button>
-			</form>
+			<h2> Got something to say? We'd love to hear from you. </h2>
+			<table>
+				<tr> <!-- table row -->
+					<td> <!-- table column -->
+						<form id="contactform" name="contact">
+							<h3> Either send us a message here </h3>
+							<p> Enquiry type: </p>
+							<select name="enquirytype">
+								<option value="general" selected>General</option>
+								<option value="help">Help</option>
+								<option value="feedback">Feedback</option>
+							</select>
+							<p> Name: </p>
+							<input type="text" name="name">
+							<p> Email: </p>
+							<input type="text" name="email">
+							<p> Message: </p>
+							<textarea name="message" placeholder="Enter your message here" rows="10" cols="50"></textarea> <br>
+							<button type="button" onclick="contactSubmitted ('contact', 'name', 'email', 'message')"> Send </button>
+						</form>
+					</td>
+					<td>
+						<h3> Or get in touch through Facebook or Instagram </h3>
+						<a href="https://www.facebook.com"><img src="facebook.jpg" class="socialmedialogo" alt="Facebook logo"></a>
+						<a href="https://www.instagram.com"><img src="instagram.jpg" class="socialmedialogo" alt="Instagram logo"></a>
+					</td>
+				</tr>
+			</table>
+			<footer><!-- using this section for adding references -->
+				<h1>
+					REFERENCES:
+				</h1>
+				<p>
+					Facebook logo source: https://www.facebook.com <br>
+					Instagram logo source: https://www.instagram.com
+				</p>
+			</footer>
 		</div>
 	</body>
 </html>

@@ -121,6 +121,7 @@ Table
 #ecoLikeScore, #taneLikeScore {
 	font-weight: normal;
 	text-decoration: none;
+	color: #fff;
 }
 
 h1, h2 {
@@ -152,7 +153,6 @@ img {
 	max-width: 500px;
 }
 
-
 button {
 	margin: 25px 0;
 	position:relative;
@@ -163,6 +163,13 @@ button {
 	max-width: 100px;
 }
 
+ol, form, #about {
+	background: linear-gradient(#777, transparent 10%),
+            linear-gradient(0deg, #999, transparent),
+            #707477 no-repeat center;
+	max-width: 860px;
+	padding: 30px;	
+}
 
 
 
