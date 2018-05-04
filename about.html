@@ -16,7 +16,6 @@
 				<ul id="nav">
 					<li><a href="contact.html">Contact Us</a></li>
 					<li><a href="about.html">About</a></li>
-					<li><a href="subscribe.html">Subscribe</a></li>
 					<li><a href="products.html">Products</a></li>
 					<li><a href="index.html">Home</a></li>				
 				</ul>
@@ -31,6 +30,18 @@
 					Check out the video below to see what we are all about: 
 				</p>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/dAUX2xalEuU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> <!-- embeded youtube video -->
+			</div>
+			<div id="about">
+				<h2> Want to stay up to date? Subscribe! </h2> 
+				<form id="subscribeform" name="subscribe">
+					<p> Name: </p>
+					<input type="text" name="name">
+					<p> Email: </p>
+					<input type="text" name="email1">
+					<p> Confirm email: </p>
+					<input type="text" name="email2"> <br>
+					<button type="button" onclick="subscribeSubmitted ('subscribe', 'name', 'email1', 'email2')"> Subscribe </button>
+				</form>
 			</div>
 			<footer> <!-- using this section for adding references -->
 				<h1>
