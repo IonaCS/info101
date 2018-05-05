@@ -10,9 +10,22 @@ function contactSubmitted (formname, feild1, feild2, feild3) {
 }
 
 function subscribeSubmitted (formname, feild1, feild2, feild3) {
-	var status = validateForm (formname, feild1, feild2, feild3)
-	if (status == true) {
-		document.getElementById("subscribeform").innerHTML = "Thank you for subscribing! You'll get an email soon to verify your details.";		
+	var status = validateForm (formname, feild1, feild2, feild3);
+	var emailMatch = checkEmail (feild2, feild3);
+	console.log(emailMatch)
+	if (status == true & emailMatch == true) {
+		document.getElementById("subscribeform").innerHTML = "Thank you for subscribing!";		
+	}
+}
+
+function checkEmail (feild2, feild3) {
+	var a = document.forms["subscribe"][feild2].value;
+    var b = document.forms["subscribe"][feild3].value;
+	if (a != b) {
+		alert("These emails don't match.")
+		return false
+	} else {
+		return true
 	}
 }
 
